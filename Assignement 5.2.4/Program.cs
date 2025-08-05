@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(isPalindrome("RaDAr"));
-            Console.WriteLine(isPalindrome("RAdDar"));
-            Console.WriteLine(isPalindrome("sonar"));
+            Console.WriteLine(isPalindrome("RaDAr")); // true
+            Console.WriteLine(isPalindrome("RAdDar")); // true
+            Console.WriteLine(isPalindrome("sonar")); // false
         }
         static bool isPalindrome(string s) 
         {
